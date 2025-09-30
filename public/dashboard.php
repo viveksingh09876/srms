@@ -11,7 +11,6 @@ $message = '';
 
 // Handle CRUD
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    // Safe casting for all POST fields to prevent trim errors
     $name = trim((string)($_POST['name'] ?? ''));
     $roll_number = trim((string)($_POST['roll_number'] ?? ''));
     $email_input = (string)($_POST['email'] ?? '');

@@ -1,4 +1,4 @@
-// Edit Student Function (AJAX Fetch and Populate)
+// Edit Student Function
 function editStudent(id) {
     fetch(`get_student.php?id=${id}`)
         .then(response => {

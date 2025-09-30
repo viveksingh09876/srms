@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS admins (
 );
 
 INSERT INTO admins (username, password) VALUES 
-('admin', '$2y$10$RpMD87E.dC90sPQGeKv.HeX3UeZjoPZog47CjPUR5okQOG7n/hgum');  -- Replace with actual hash
+('admin', '$2y$10$RpMD87E.dC90sPQGeKv.HeX3UeZjoPZog47CjPUR5okQOG7n/hgum');
 
 -- Students table
 CREATE TABLE IF NOT EXISTS students (

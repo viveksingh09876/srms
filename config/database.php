@@ -1,10 +1,10 @@
 <?php
 session_start();
 
-$host = 'localhost';  // localhost IP
+$host = 'localhost';
 $dbname = 'srms_db';
-$username = 'root';   // your MySQL username
-$password = '';   // your MySQL password
+$username = 'root';
+$password = '';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $password);

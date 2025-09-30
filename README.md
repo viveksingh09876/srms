@@ -23,5 +23,3 @@ A secure PHP/MySQL web app for managing student records (CRUD operations).
 - Prepared statements (SQL injection prevention).
 - Password hashing.
 - Input validation.
-
-For production: Use HTTPS, change default credentials.
